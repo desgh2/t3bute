@@ -1,0 +1,317 @@
+.product-section {
+    position: relative;
+    height: 1234px;
+    padding-top: 165px;
+    padding-bottom: 165px;
+    z-index: 8;
+}
+
+.in-section-ai::before {
+    content: '';
+    position: absolute;
+    width: 2193px;
+    height: 509px;
+    left: 0;
+    top: 317px;
+    background: linear-gradient(88.7deg, rgba(37, 203, 255, 0.3) 28.76%, rgba(201, 76, 244, 0.3) 61.12%);
+    filter: blur(247px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+
+.in-section-education::before {
+    content: '';
+    position: absolute;
+    width: 1440px;
+    height: 915px;
+    left: 0;
+    top: 114px;
+    background: linear-gradient(87.06deg, rgba(220, 101, 137, 0.3) 38.02%, rgba(201, 76, 244, 0.3) 91.06%);
+    filter: blur(300px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+
+.in-section-trading::before {
+    content: '';
+    position: absolute;
+    width: 1440px;
+    height: 915px;
+    left: 0;
+    top: 114px;
+    background: linear-gradient(85.81deg, rgba(37, 203, 255, 0.3) 39.44%, rgba(76, 123, 244, 0.3) 89.61%);
+    filter: blur(300px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+
+.in-section-game::before {
+    content: '';
+    position: absolute;
+    width: 1440px;
+    height: 915px;
+    left: 0;
+    top: 114px;
+    background: linear-gradient(85.81deg, rgba(37, 203, 255, 0.4) 39.44%, rgba(76, 123, 244, 0.4) 89.61%);
+    filter: blur(300px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+
+
+.ai-bounce-xs {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 0px;
+    top: 320px;
+    background: url('../images/bounce-xs.svg') no-repeat;
+    background-size: contain;
+    opacity: 1;
+    z-index: 3;
+}
+
+.ai-bounce-sm {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    right: 525px;
+    bottom: 250px;
+    opacity: 1;
+    background: url('../images/bounce-sm.svg') no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.ai-bounce-md {
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    left: 0px;
+    top: 320px;
+    opacity: 1;
+    transform: rotate(-75deg);
+    background: url('../images/bounce-md.svg') no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.resource-conus {
+    position: absolute;
+    width: 857px;
+    height: 952px;
+    left: 202px;
+    top: 123px;
+    background: url('../images/resource3.svg') no-repeat;
+    background-size: contain;
+    transform: rotate(358deg);
+    z-index: -2;
+}
+
+.game-bg-sm {
+    position: absolute;
+    width: 420px;
+    height: 310px;
+    left: 442px;
+    top: 257px;
+    opacity: 1;
+    background: url('../images/game-bg-sm.svg') no-repeat;
+    z-index: -2;
+
+}
+
+.game-bg-md {
+    position: absolute;
+    width: 717px;
+    height: 933px;
+    left: -64px;
+    top: 136px;
+    opacity: 1;
+    filter: blur(10px);
+    background: url('../images/game-bg-md.svg') no-repeat;
+    z-index: 3;
+}
+
+.tablet-md {
+    position: absolute;
+    width: 600px;
+    height: 599px;
+    left: 375px;
+    top: 400px;
+    opacity: 1;
+    background: url('../images/tablet-md.svg') no-repeat;
+    z-index: 3;
+}
+
+.tablet-sm {
+    position: absolute;
+    width: 350px;
+    height: 277px;
+    left: 315px;
+    top: 170px;
+    opacity: 1;
+    background: url('../images/tablet-sm.svg') no-repeat;
+    z-index: 3;
+}
+
+.in-section-start {
+    z-index: 8;
+    position: relative;
+}
+
+
+.card {
+    height: 440px;
+    position: relative;
+    background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(8.89583px);
+    border-radius: 25.4167px;
+    border: 0;
+    transition: all 0.5s;
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+
+.card-image::before {
+    content: '';
+    background: linear-gradient(0deg, rgba(201, 76, 244, 0.34), rgba(201, 76, 244, 0.34));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    border-radius: 25px 25px 0px 0px;
+    transition: all 0.5s;
+}
+
+.card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card-body {
+    padding: 25px 18px 0 27px;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+
+.card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #CBCBCB;
+}
+
+
+.card:hover .card-image::before {
+    content: '';
+    background: linear-gradient(0deg, rgba(201, 76, 244, 0.34), rgba(201, 76, 244, 0.34));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    border-radius: 25px 25px 0px 0px;
+    opacity: 0.1;
+}
+
+
+
+
+
+
+.product-contact {
+    position: relative;
+    height: 760px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    z-index: 8;
+}
+
+.in-product-contact::before {
+    content: '';
+    position: absolute;
+    width: 1435px;
+    height: 509px;
+    left: 0;
+    top: 199px;
+    background: linear-gradient(87.18deg, rgba(37, 111, 255, 0.4) 38.28%, rgba(191, 76, 244, 0) 91.79%);
+    filter: blur(247px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: -1;
+}
+
+.product-contact-start .title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.3) -32.37%, rgba(37, 203, 255, 0.3) 93.03%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.product-contact-start .text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.product-contact-end {
+    text-align: center;
+}
+
+.product-contact-end .percent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 212.664px;
+    line-height: 284px;
+    background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.2) -32.37%, rgba(37, 203, 255, 0.2) 93.03%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    mix-blend-mode: normal;
+    text-shadow: 0px 7.0888px 56.7104px rgba(0, 0, 0, 0.25);
+}
+
+.product-contact-end .description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28.3552px;
+    line-height: 50px;
+    color: #8A8A8E;
+}
+
+.chart-lg {
+    position: absolute;
+    width: 914px;
+    height: 854px;
+    left: 525px;
+    top: -100px;
+    opacity: 1;
+    background: url('../images/chart-lg.svg') no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
