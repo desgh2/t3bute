@@ -29,6 +29,19 @@
 
     #primary-menu {
         display: none;
+        background: #fff;
+        width: 80%;
+        position: absolute;
+        /* display: flex; */
+        left: 0px;
+    }
+
+    ul.nav-pills li.nav-item a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 28px;
+        color: #989898;
     }
 
     a.logotype {
@@ -46,6 +59,7 @@
         position: relative;
         z-index: 1;
         padding-top: 108px;
+        margin-bottom: 80px;
     }
 
     .primary-screen::before {
@@ -57,6 +71,7 @@
         top: 0px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.2632) 49.72%, rgba(201, 76, 244, 0.28) 75.27%);
         filter: blur(262px);
+        z-index: 5;
     }
 
     .primary-screen::after {
@@ -65,7 +80,7 @@
         width: 1440px;
         height: 692px;
         left: calc(50% - 1440px/2);
-        top: -108px;
+        top: 150px;
         background: url('../images/illustration_bg.svg');
         z-index: -1;
     }
@@ -242,10 +257,11 @@
 
     .product-section {
         position: relative;
-        height: 699px;
+        height: 760px;
         padding-top: 50px;
         padding-bottom: 40px;
         z-index: 8;
+        margin-top: 70px;
     }
 
     .in-section-start {
@@ -282,9 +298,159 @@
         text-shadow: 0px 1.42104px 11.3683px rgba(0, 0, 0, 0.25);
     }
 
+    .in-section-ai::before {
+        content: '';
+        position: absolute;
+        width: 375px;
+        height: 600px;
+        left: 0px;
+        top: 12p5x;
+        background: linear-gradient(88.7deg, rgba(37, 203, 255, 0.59) 28.76%, rgba(201, 76, 244, 0.59) 61.12%);
+        filter: blur(200px);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: 1;
+    }
+
+    .ai-bounce-sm {
+        display: none;
+    }
+
+    .ai-bounce-xs {
+        position: absolute;
+        width: 205px;
+        height: 205px;
+        left: -20px;
+        top: 135px;
+        background: url('../images/bounce-xs.svg') no-repeat;
+        background-size: contain;
+        opacity: 1;
+        z-index: 3;
+    }
+
+    .ai-bounce-md {
+        position: absolute;
+        width: 640px;
+        height: 640px;
+        left: 25px;
+        top: 300px;
+        opacity: 0.2;
+        transform: rotate(-75deg);
+        background: url('../images/bounce-md.svg') no-repeat;
+        background-size: contain;
+        z-index: 3;
+    }
+
+    .in-section-game::before {
+        content: '';
+        width: 375px;
+        height: 509px;
+        left: 0px;
+        top: 127px;
+        background: linear-gradient(85.81deg, rgba(37, 203, 255, 0.5) 39.44%, rgba(76, 184, 244, 0.5) 89.61%);
+        filter: blur(187px);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: 1;
+    }
+
+    .game-bg-sm {
+        position: absolute;
+        width: 420px;
+        height: 510px;
+        left: 50%;
+        margin-left: -100px;
+        top: 184px;
+        opacity: 0.2;
+        filter: blur(5px);
+        transform: rotate(330deg);
+        background: url('../images/game-bg-sm.svg') no-repeat;
+        z-index: 21;
+    }
+
+    .game-bg-md {
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        left: -29px;
+        top: 450px;
+        opacity: 1;
+        /* filter: blur(10px); */
+        background: url('../images/game-bg-md.svg') no-repeat;
+        z-index: 3;
+        transform: rotate(347deg);
+        background-size: cover;
+    }
+
+    .in-section-education::before {
+        content: '';
+        width: 375px;
+        height: 600px;
+        left: 0px;
+        top: 127px;
+        background: linear-gradient(85.81deg, rgba(255, 37, 246, 0.7) 39.44%, rgba(76, 123, 244, 0.7) 89.61%, rgba(244, 76, 197, 0.7) 89.61%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: 1;
+        border-radius: 50%;
+    }
+
+    .resource-conus {
+        position: absolute;
+        width: 857px;
+        height: 952px;
+        left: -102px;
+        top: 123px;
+        background: url('../images/resource3.svg') no-repeat;
+        background-size: contain;
+        transform: rotate(358deg);
+        z-index: -2;
+    }
+
+    .in-section-trading::before {
+        content: '';
+        width: 375px;
+        height: 620px;
+        left: 0px;
+        top: 180px;
+        background: linear-gradient(85.81deg, rgba(37, 203, 255, 0.8) 39.44%, rgba(76, 123, 244, 0.8) 89.61%);
+        filter: blur(217px);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: 1;
+    }
+
+
+    .tablet-md {
+        position: absolute;
+        width: 276px;
+        height: 205px;
+        left: 50%;
+        margin-left: -138px;
+        top: 450px;
+        opacity: 1;
+        background: url('../images/tablet-md.svg') no-repeat;
+        background-size: contain;
+        z-index: 3;
+    }
+
+    .tablet-sm {
+        width: 290px;
+        height: 221px;
+        left: 18px;
+        top: 270.69px;
+       
+        opacity: 1;
+        background: url('../images/tablet-sm.svg') no-repeat;
+        background-size: contain;
+        z-index: 3;
+    }
+
+
+
+
+
+
+
 
     .card {
-        height: 200px;
+        height: 250px;
         position: relative;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(4.025px);
@@ -324,7 +490,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 140%;
         color: #FFFFFF;
 
@@ -334,7 +500,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
-        font-size: 6.9px;
+        font-size: 11px;
         line-height: 160%;
         color: #CBCBCB;
     }
@@ -343,12 +509,6 @@
         padding-top: 0;
         z-index: 7;
     }
-
-
-
-
-
-
 
     .product-contact {
         position: relative;
@@ -433,20 +593,19 @@
 
     .product-contact-start .btn-order {
         position: absolute;
-    bottom: 60px;
-    left: 50%;
-    /* margin: 0 auto; */
-    margin-left: -62px;
+        bottom: 60px;
+        left: 50%;
+        /* margin: 0 auto; */
+        margin-left: -62px;
     }
 
     .in-product-contact::before {
         content: '';
         position: absolute;
         width: 377px;
-        height: 635px;
-        left: 376px;
+        height: 800px;
+        left: 0px;
         top: 0px;
-
         background: linear-gradient(87.18deg, rgba(37, 111, 255, 0.5) 38.28%, rgba(191, 76, 244, 0.5) 91.79%);
         filter: blur(247px);
         transform: matrix(-1, 0, 0, 1, 0, 0);
