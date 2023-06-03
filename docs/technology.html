@@ -10,6 +10,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/techno.css">
+    <link rel="stylesheet" href="../style/xs.css">
 </head>
 
 <body>
@@ -18,11 +19,15 @@
         <div class="top-header fixed-top" id="header">
             <div class="container">
                 <header class="d-flex flex-wrap justify-content-center my-4 pt-1">
-                    <a href="../index.html"
-                        class="d-flex align-items-center me-md-auto link-body-emphasis text-decoration-none">
+                    <a href="../index.html" class="logotype d-flex align-items-center me-auto link-body-emphasis text-decoration-none">
                         <img src="../images/logo.png" alt="">
                     </a>
-                    <ul class="nav nav-pills">
+                    <button id="toggle-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                    </button>
+                    <ul class="nav nav-pills" id="primary-menu">
                         <li class="nav-item"><a href="../index.html" class="nav-link">About</a></li>
                         <li class="nav-item active"><a href="../docs/technology.html" class="nav-link">Technology</a>
                         </li>
@@ -35,16 +40,16 @@
         <div class="primary-screen">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 primary-screen-start-block">
-                        <h1 class="title"><strong>Innovation</strong> and Development</h1>
+                    <div class="col-lg-7 col-12 primary-screen-start-block">
+                        <h1 class="title techno-title"><strong>Innovation</strong> and Development</h1>
                         <p class="text">Join us to learn more about how our innovations are changing the digital economy
                             landscape</p>
                         <button class="btn-order">
                             join now
                         </button>
                     </div>
-                    <div class="col-lg-5 primary-screen-end-block">
-                        <img src="../images/screen.svg" alt="">
+                    <div class="col-lg-5 col-12 primary-screen-end-block primary-screen-techno-end-block">
+                        <img src="../images/screen.svg" alt="" class="techno-primary-image">
                         <div class="gradient-circle"></div>
                         <div class="gradient-round"></div>
                     </div>
@@ -67,22 +72,22 @@
                         <div class="gc">Cerebro AI</div>
                         <div class="ggrid"></div>
                     </div>
-                    </div>
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <div class="container">
+        <div class="container techno-bg-gradient">
             <!-- first-jumbo -->
             <div id="first-jumbo" class="jumbo">
                 <div class="row">
-                    <div class="col-lg-6 jumbo-screen-end-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-end-block">
                         <div class="to-image">
                             <div class="gradient-circle"></div>
                             <div class="gradient-circle-sm"></div>
                             <img src="../images/jumbo1.svg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 jumbo-screen-start-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-start-block">
                         <h1 class="title">Base ML</h1>
                         <p class="text">Server checks the reported stats of trading operations that use our AI as their
                             core and anlayze efficiency.</p>
@@ -93,12 +98,12 @@
             <!-- second-jumbo -->
             <div id="second-jumbo" class="jumbo">
                 <div class="row">
-                    <div class="col-lg-6 jumbo-screen-start-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-start-block">
                         <h1 class="title">Cerebro AI</h1>
                         <p class="text">Uses its access to the big data from popular social networks to analyze
                             semantics and hashtag clouds regarding various assets and predict market sentiment.</p>
                     </div>
-                    <div class="col-lg-6 jumbo-screen-end-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-end-block">
                         <div class="to-image">
                             <div class="gradient-circle"></div>
                             <div class="gradient-circle-sm"></div>
@@ -111,14 +116,14 @@
             <!-- third-jumbo -->
             <div id="third-jumbo" class="jumbo">
                 <div class="row">
-                    <div class="col-lg-6 jumbo-screen-end-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-end-block">
                         <div class="to-image">
                             <div class="gradient-circle"></div>
                             <div class="gradient-circle-sm"></div>
                             <img src="../images/jumbo3.svg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 jumbo-screen-start-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-start-block">
                         <h1 class="title">Tribute ML</h1>
                         <p class="text">Learns to combine and compare all the received data from other servers and
                             models to make a dataset of parameters.</p>
@@ -129,12 +134,12 @@
             <!-- fourth-jumbo -->
             <div id="fourth-jumbo" class="jumbo">
                 <div class="row">
-                    <div class="col-lg-6 jumbo-screen-start-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-start-block">
                         <h1 class="title">Jarvis AI</h1>
                         <p class="text">Analyze Pinescript written data from thousands of tradingview statistics in
                             order to learn from best strategy.</p>
                     </div>
-                    <div class="col-lg-6 jumbo-screen-end-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-end-block">
                         <div class="to-image">
                             <div class="gradient-circle"></div>
                             <div class="gradient-circle-sm"></div>
@@ -150,14 +155,14 @@
             <!-- fifth-jumbo -->
             <div id="fifth-jumbo" class="jumbo">
                 <div class="row">
-                    <div class="col-lg-6 jumbo-screen-end-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-end-block">
                         <div class="to-image">
                             <div class="gradient-circle"></div>
                             <div class="gradient-circle-sm"></div>
                             <img src="../images/jumbo5.svg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 jumbo-screen-start-block">
+                    <div class="col-lg-6 col-12 jumbo-screen-start-block">
                         <h1 class="title">Tribute AI</h1>
                         <p class="text">Combines several ML and AI models that empower each other data.</p>
                     </div>
@@ -167,12 +172,11 @@
             <!-- Form send -->
             <div id="techno-form">
                 <div class="subscribe-box row">
-                    <div class="col-lg-8 offset-lg-2">
+                    <div class="col-lg-8 offset-lg-2 col-12">
                         <h4 class="title">Apply as business</h4>
-                        <p class="text">Apply to subscribe for our DataSets and AI models and signals, and enter your
-                            email there</p>
+                        <p class="text">T3bute AI is what we lend/sell to trading companies and traders. It uses the whole combined set of data to imitate human behaviour and produce a signal.</p>
                     </div>
-                    <div class="subscribe-form-box col-lg-6 offset-lg-3">
+                    <div class="subscribe-form-box col-lg-6 offset-lg-3 col-12">
                         <form action="" id="subscribe-form" class="text-center">
                             <input type="text" class="subscribe-field" name="email" placeholder="Email address">
                             <button type="button" class="btn-subscribe">Send</button>
@@ -197,13 +201,13 @@
                     </ul>
                 </div>
             </div>
-
         </footer>
     </div>
     <!-- /#wrapper-content -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
 </body>
-
 </html>
