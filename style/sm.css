@@ -1,4 +1,4 @@
-@media (max-width: 575px) {
+@media (min-width: 576px) and (max-width: 767px) {
     footer {
         display: none;
     }
@@ -18,28 +18,12 @@
         color: #FFFFFF;
     }
 
-    button#toggle-menu {
-        display: block;
-    }
 
-    button#toggle-menu svg {
-        width: 40px;
-        height: 40px;
-    }
-
-    #primary-menu {
-        display: none;
-        background: #fff;
-        width: 80%;
-        position: absolute;
-        /* display: flex; */
-        left: 0px;
-    }
 
     ul.nav-pills li.nav-item a {
         font-style: normal;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 28px;
         color: #989898;
     }
@@ -89,10 +73,14 @@
         z-index: 7;
     }
 
+    .max-bottom {
+        margin-bottom: 140px;
+    }
+
     .primary-screen-end-block {
         position: relative;
         z-index: 7;
-        margin-top: 60px;
+        margin-top: 90px;
     }
 
     .home-screen-end-block img {
@@ -110,7 +98,7 @@
         position: absolute;
         width: 160px;
         height: 148px;
-        left: 187px;
+        left: 280px;
         top: 85px;
         background: url('../images/coin1.svg');
         transform: rotate(1deg);
@@ -122,7 +110,7 @@
         position: absolute;
         width: 132px;
         height: 150px;
-        left: 192px;
+        left: 280px;
         top: 326px;
         background: url('../images/coin22.png') no-repeat;
         background-size: contain;
@@ -136,8 +124,8 @@
         position: absolute;
         width: 128px;
         height: 128px;
-        left: 0px;
-        top: 132.24px;
+        left: 80px;
+        top: 132px;
         background: url('../images/coin3.svg');
         background-size: cover;
         /* transform: rotate(-8.35deg); */
@@ -146,10 +134,10 @@
     .primary-screen-end-block::before {
         content: '';
         position: absolute;
-        width: 316px;
-        height: 308.1px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -158px;
+        margin-left: -200px;
         top: 0px;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.30272px);
@@ -255,11 +243,11 @@
     }
 
     .primary-screen-end-block img.product-server {
-        width: 348px;
-        height: 304px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -190px;
-        top: -15px;
+        margin-left: -200px;
+        top: -1px;
         position: absolute;
         z-index: 5;
     }
@@ -305,7 +293,7 @@
 
     .product-section {
         position: relative;
-        height: 760px;
+        height: 800px;
         padding-top: 50px;
         padding-bottom: 40px;
         z-index: 8;
@@ -331,8 +319,8 @@
     }
 
     .product-section .text-section {
-        max-width: 315px;
-        margin: 0 auto 60px;
+        max-width: 430px;
+        margin: 0 auto 30px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -483,7 +471,6 @@
         height: 221px;
         left: 18px;
         top: 270.69px;
-
         opacity: 1;
         background: url('../images/tablet-sm.svg') no-repeat;
         background-size: contain;
@@ -491,7 +478,7 @@
     }
 
     .card {
-        height: 250px;
+        height: 300px;
         position: relative;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(4.025px);
@@ -503,7 +490,7 @@
     .card-image {
         position: relative;
         width: 100%;
-        height: 87px;
+        height: 140px;
         overflow: hidden;
     }
 
@@ -514,7 +501,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 90px;
+        height: 140px;
         border-radius: 11.5px 11.5px 0px 0px;
         transition: all 0.5s;
         z-index: 3;
@@ -532,7 +519,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 140%;
         color: #FFFFFF;
 
@@ -542,7 +529,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
-        font-size: 9px;
+        font-size: 12px;
         line-height: 160%;
         color: #CBCBCB;
     }
@@ -558,6 +545,7 @@
         padding-top: 55px;
         padding-bottom: 55px;
         z-index: 8;
+        margin-top: 70px;
     }
 
     .product-contact-start .title {
@@ -574,7 +562,7 @@
     }
 
     .product-contact-start .text {
-        max-width: 325px;
+        max-width: 450px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -656,11 +644,11 @@
 
 
     .primary-screen-end-block img.techno-primary-image {
-        width: 400px;
-        height: 380px;
+        width: 520px;
+        height: 450px;
         left: 50%;
-        margin-left: -214px;
-        top: -60px;
+        margin-left: -260px;
+        top: -50px;
         position: absolute;
         z-index: 5;
     }
@@ -718,10 +706,10 @@
     } */
 
     .fundation {
-        height: 457px;
+        height: 380px;
         position: relative;
         z-index: 1;
-        margin-top: 120px;
+        margin-top: 210px;
     }
 
     .fundation::before {
@@ -868,20 +856,20 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 9px;
+        font-size: 12px;
         line-height: 140%;
         text-align: center;
         text-transform: uppercase;
         background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.2) -32.37%, rgba(37, 203, 255, 0.2) 93.03%), linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.105) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(2.32847px);
-        width: 79.83px;
-        height: 25.96px;
-        border-radius: 6.65278px;
+        width: 90px;
+        height: 32px;
+        border-radius: 7px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 9.97917px 8.64861px;
+        padding: 10px 9px;
         gap: 13.31px;
     }
 
@@ -917,14 +905,14 @@
 
     .grid-col .gc:first-child {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -5px;
+        left: 18px;
     }
 
     .grid-col .gc:nth-child(2) {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: -5px;
+        right: 18px;
     }
 
     .grid-col .gc.centerer {
@@ -937,18 +925,18 @@
     .grid-col .gc:nth-child(4) {
         position: absolute;
         top: 76px;
-        left: 0;
+        left: 18px;
     }
 
     .grid-col .gc:nth-child(5) {
         position: absolute;
         top: 76px;
-        right: 0;
+        right: 18px;
     }
 
     .jumbo {
         height: auto;
-        min-height: 475px;
+        min-height: 550px;
         position: relative;
         margin-bottom: 100px;
     }
@@ -957,7 +945,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 36px;
         line-height: 120%;
         text-align: center;
         background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.3) -32.37%, rgba(37, 203, 255, 0.3) 93.03%), #FFFFFF;
@@ -979,7 +967,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-shadow: 0px 1.42104px 11.3683px rgba(0, 0, 0, 0.25);
-        max-width: 320px;
+        max-width: 430px;
         margin: 0 auto;
     }
 
@@ -1004,10 +992,10 @@
 
     #first-jumbo .to-image {
         position: absolute;
-        width: 315px;
-        height: 315px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -157px;
+        margin-left: -200px;
         top: 155px;
         background: linear-gradient(78.84deg, rgba(91, 9, 225, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.44091px);
@@ -1017,8 +1005,8 @@
 
     #first-jumbo img {
         position: relative;
-        width: 423px;
-        height: 387.08px;
+        width: 530px;
+        height: 480px;
         left: -57px;
         top: -45px;
     }
@@ -1047,23 +1035,23 @@
 
     #second-jumbo .to-image {
         position: absolute;
-        width: 315px;
-        height: 315px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -157px;
-        top: 260px;
+        margin-left: -200px;
+        top: 190px;
         background: linear-gradient(78.84deg, rgba(91, 9, 225, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.44091px);
-        border-radius: 17.1818px;
+        border-radius: 18px;
         z-index: -1;
     }
 
     #second-jumbo img {
         position: relative;
-        width: 296px;
-        height: 381.08px;
-        left: 19px;
-        top: -65px;
+        width: 350px;
+        height: 380px;
+        left: 75px;
+        top: 20px;
     }
 
     #second-jumbo .gradient-circle {
@@ -1098,11 +1086,11 @@
 
     #third-jumbo .to-image {
         position: absolute;
-        width: 315px;
-        height: 315px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -157px;
-        top: 200px;
+        margin-left: -200px;
+        top: 170px;
         background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.44091px);
         border-radius: 17.1818px;
@@ -1111,10 +1099,10 @@
 
     #third-jumbo img {
         position: relative;
-        width: 333.33px;
-        height: 352.23px;
+        width: 335px;
+        height: 353px;
         left: 0px;
-        top: -37.23px;
+        top: 50px;
     }
 
     #third-jumbo .gradient-circle {
@@ -1157,23 +1145,23 @@
 
     #fourth-jumbo .to-image {
         position: absolute;
-        width: 315px;
-        height: 315px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -157px;
+        margin-left: -200px;
         top: 180px;
         background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.44091px);
-        border-radius: 17.1818px;
+        border-radius: 18px;
         z-index: -1;
     }
 
     #fourth-jumbo img {
         position: relative;
-        width: 420.19px;
-        height: 386.15px;
-        left: -48px;
-        top: -42px;
+        width: 490px;
+        height: 460px;
+        left: -43px;
+        top: -36px;
         filter: drop-shadow(0px 0px 24.0545px #C94CF4);
     }
 
@@ -1251,14 +1239,14 @@
 
     #fifth-jumbo .to-image {
         position: absolute;
-        width: 315px;
-        height: 315px;
+        width: 400px;
+        height: 400px;
         left: 50%;
-        margin-left: -157px;
+        margin-left: -200px;
         top: 165px;
         background: linear-gradient(78.84deg, rgba(91, 9, 225, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.44091px);
-        border-radius: 17.1818px;
+        border-radius: 18px;
         z-index: -1;
     }
 
@@ -1285,10 +1273,10 @@
     #fifth-jumbo img {
         position: relative;
         position: absolute;
-        width: 315px;
-        height: 342.49px;
+        width: 400px;
+        height: 440px;
         left: 0px;
-        top: -27.49px;
+        top: -35px;
     }
 
     #techno-form {
@@ -1366,12 +1354,12 @@
         background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.1) -32.37%, rgba(37, 203, 255, 0.1) 93.03%), linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         border: 1.53407px solid rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(10px);
-        width: 315px;
+        width: 390px;
         border-radius: 8px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 12.5995px;
+        font-size: 16px;
         line-height: 11px;
         text-align: center;
         color: #FFFFFF;
@@ -1410,10 +1398,10 @@
     #about-screen::before {
         content: '';
         position: absolute;
-        width: 907px;
-        height: 375px;
-        left: 0;
-        top: 0;
+        width: 1223px;
+        height: 507px;
+        left: -290px;
+        top: 286px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.3) 35.46%, rgba(201, 76, 244, 0.3) 75.27%);
         filter: blur(122px);
         transform: matrix(0, 1, 1, 0, 0, 0);
@@ -1421,10 +1409,16 @@
     }
 
     .card-about {
-        width: 336px;
+        width: 420px;
         margin: 0 auto 40px;
     }
-
+    .in-card-about {
+        height: 240px;
+        overflow: hidden;
+        background: linear-gradient(78.84deg, rgba(72, 123, 255, 0.336) 0%, rgba(20, 41, 61, 0.168) 98.69%);
+        border-radius: 20px;
+        padding: 25px 25px 0 25px;
+    }
 
     #subscribe {
         height: 632px;
@@ -1541,10 +1535,10 @@
 
     .laptop {
         position: absolute;
-        width: 328px;
-        height: 174px;
+        width: 400px;
+        height: 260px;
         left: 50%;
-        margin-left: -164px;
+        margin-left: -200px;
         top: 20px;
         background: url('../images/laptop.svg') no-repeat;
         background-size: contain;
@@ -1552,10 +1546,10 @@
 
     .arrow-lg {
         position: absolute;
-        width: 336px;
-        height: 187px;
+        width: 400px;
+        height: 225px;
         left: 50%;
-        margin-left: -168px;
+        margin-left: -200px;
         top: 5px;
         background: url('../images/arrow-lg.svg') no-repeat;
         background-size: contain;
@@ -1785,7 +1779,7 @@
     .card-img-bottom,
     .card-img-top {
         width: 100%;
-        height: 90px;
+        height: 140px;
         position: relative;
         top: 0px;
     }
@@ -1864,7 +1858,7 @@
 
 
     .card-section {
-        margin-top: 90px;
+        margin-top: 30px;
         height: 1570px;
         position: relative;
     }
@@ -1940,7 +1934,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 100px;
+        font-size: 130px;
         line-height: 154px;
         letter-spacing: -0.03em;
         background: linear-gradient(272.72deg, rgba(66, 0, 255, 0.1) -47.34%, rgba(92, 157, 255, 0.1) 100.35%), #FFFFFF;
@@ -1948,6 +1942,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         mix-blend-mode: normal;
+        text-align: center;
     }
 
     .card-invite.card-invite-first p.description {
@@ -1961,7 +1956,8 @@
         font-size: 16px;
         line-height: 160%;
         color: #E8E8E8;
-        margin-bottom: 30px;
+        margin: 0 auto 30px;
+        max-width: 400px !important;
     }
 
     .card-invite span.lines {
@@ -2036,7 +2032,7 @@
         left: 0;
         top: 0;
         width: 100%;
-        height: 155px;
+        height: 200px;
         background: rgba(225, 9, 165, 0.04);
         border-radius: 10px;
         z-index: 3;
@@ -2048,23 +2044,23 @@
         left: 0;
         top: 0;
         width: 100%;
-        height: 155px;
+        height: 200px;
         z-index: 5;
-        padding: 10px 10px 0;
+        padding: 20px 20px 0;
         border-radius: 10px;
     }
 
     .road-card-body .tag {
         background: linear-gradient(0deg, #C94CF4, #C94CF4), #4B79EF;
-        border-radius: 3.9px;
+        border-radius: 5px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
-        font-size: 9px;
+        font-size: 12px;
         line-height: 160%;
         text-align: center;
         color: #FFFFFF;
-        padding: 2px 6px;
+        padding: 3px 6px;
         display: inline-block;
         text-transform: uppercase;
         margin-bottom: 10px;
@@ -2074,7 +2070,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
-        font-size: 13px;
+        font-size: 18px;
         line-height: 120%;
         display: flex;
         align-items: center;
@@ -2089,7 +2085,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 13px;
         line-height: 160%;
         color: #DBDBDB;
     }
