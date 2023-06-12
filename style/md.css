@@ -1601,7 +1601,7 @@
 
     .work-box {
         padding: 0px 0 0px;
-        height: 545px;
+        height: 380px;
         position: relative;
     }
 
@@ -1837,7 +1837,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 8px;
         line-height: 12px;
         max-width: 295px;
         color: #D1D1D1;
