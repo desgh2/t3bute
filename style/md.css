@@ -652,10 +652,10 @@
 
 
     .primary-screen-end-block img.techno-primary-image {
-        width: 520px;
+        width: 450px;
         height: 450px;
         left: 50%;
-        margin-left: -260px;
+        margin-left: -240px;
         top: -50px;
         position: absolute;
         z-index: 5;
