@@ -143,6 +143,8 @@ ul.nav-pills li.nav-item.active a {
 
 .card-about-title {
     margin-bottom: 25px;
+    position: relative;
+    z-index: 3;
 }
 
 .card-about-title .pre-time {
@@ -216,7 +218,8 @@ ul.nav-pills li.nav-item.active a {
     height: 236px;
     right: -25px;
     top: -75px;
-    background: url('../images/about-1.svg');
+    background: url('../images/about-1.png');
+    background-size: cover;
     z-index: 1;
 }
 
@@ -235,7 +238,8 @@ ul.nav-pills li.nav-item.active a {
     height: 236px;
     right: -25px;
     top: -75px;
-    background: url('../images/about-2.svg');
+    background: url('../images/about-2.png');
+    background-size: cover;
     z-index: 1;
 }
 
@@ -254,7 +258,8 @@ ul.nav-pills li.nav-item.active a {
     height: 236px;
     right: -25px;
     top: -75px;
-    background: url('../images/about-3.svg');
+    background: url('../images/about-3.png');
+    background-size: cover;
     z-index: 1;
 }
 
@@ -365,7 +370,9 @@ span.sale-badge>strong {
     height: 396px;
     right: 0px;
     top: 128px;
-    background: url('../images/laptop.svg') no-repeat;
+    /* background: url('../images/laptop.svg') no-repeat; */
+    background: url('../images/laptop.png') no-repeat;
+    background-size: cover;
 }
 
 
@@ -985,14 +992,17 @@ i.flash-fill {
 
 .card-invite.card-invite-first p.description {
     max-width: 230px;
+    margin-bottom: 15px;
 }
 
 .card-invite.card-invite-second p.description {
     max-width: 270px;
+    margin-bottom: 15px;
 }
 
 .card-invite.card-invite-third p.description {
     max-width: 250px;
+    margin-bottom: 15px;
 }
 
 .card-invite span.lines {
@@ -2768,10 +2778,10 @@ ul.t3b li:nth-child(5) {
 }
 
 #first-jumbo img {
-    width: 720px;
+    width: 770px;
     position: relative;
-    height: 563px;
-    left: -83px;
+    height: 600px;
+    left: -110px;
 }
 
 #first-jumbo .gradient-circle {

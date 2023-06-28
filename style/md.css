@@ -91,10 +91,10 @@
     .home-screen-end-block img {
         position: absolute;
         width: 680px;
-        height: 980px;
+        height: 757px;
         left: 50%;
         margin-left: -335px;
-        top: -185px;
+        top: -77px;
         z-index: 2;
     }
 
