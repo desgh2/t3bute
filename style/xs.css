@@ -105,42 +105,40 @@
         z-index: 2;
     }
 
-    .coin-1 {
+    .big-phone {
         z-index: 3;
         position: absolute;
+        width: 730px;
+        height: 800px;
+        left: 50%;
+        margin-left: -390px;
+        top: -160px;
+        background: url('../images/smart.png');
+        background-size: cover;
+    }
+
+    .coin-1 {
         width: 160px;
-        height: 148px;
-        left: 187px;
-        top: 85px;
-        background: url('../images/coin1.svg');
-        transform: rotate(1deg);
+        height: 159px;
+        left: 415px;
+        top: 198px;
         background-size: cover;
     }
 
     .coin-2 {
-        z-index: 1;
-        position: absolute;
         width: 132px;
         height: 150px;
-        left: 192px;
-        top: 326px;
-        background: url('../images/coin22.png') no-repeat;
+        right: 185px;
+        bottom: 190px;
         background-size: contain;
-        /* transform: rotate(1deg); */
     }
 
     .coin-3 {
-        z-index: 3;
-        background-size: cover;
-        z-index: 4;
-        position: absolute;
         width: 128px;
         height: 128px;
-        left: 0px;
-        top: 132.24px;
-        background: url('../images/coin3.svg');
+        left: 204px;
+        bottom: 408px;
         background-size: cover;
-        /* transform: rotate(-8.35deg); */
     }
 
     .primary-screen-end-block::before {
@@ -238,7 +236,8 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 20px;
+        max-width: 330px;
         line-height: 150%;
         text-align: center;
         background: linear-gradient(93.41deg, #FFFFFF 44.08%, rgba(44, 198, 255, 0) 155.18%), #FFFFFF;
@@ -246,7 +245,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
-        margin-bottom: 30px;
+        margin: 0 auto 30px;
     }
 
     .primary-screen-start-block button {
@@ -1546,7 +1545,6 @@
         left: 50%;
         margin-left: -164px;
         top: 20px;
-        background: url('../images/laptop.svg') no-repeat;
         background-size: contain;
     }
 
@@ -1557,8 +1555,6 @@
         left: 50%;
         margin-left: -168px;
         top: 5px;
-        background: url('../images/arrow-lg.svg') no-repeat;
-        background-size: contain;
     }
 
     #work {
@@ -1601,41 +1597,27 @@
     }
 
     .work-first::before {
-        content: '';
-        position: absolute;
-        width: 334.94px;
-        height: 334.94px;
-        left: 50%;
-        margin-left: -167px;
-        top: 0px;
-        background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
-        backdrop-filter: blur(5.63284px);
-        border-radius: 19.4731px;
-        z-index: -1;
+        width: 0;
+        height: 0;
     }
 
-    .work-box-first::before {
-        content: '';
-        position: absolute;
-        width: 375px;
-        height: 545px;
-        left: 0px;
-        top: 0px;
-        background: linear-gradient(88.7deg, rgba(37, 203, 255, 0.5) 28.76%, rgba(201, 76, 244, 0.5) 61.12%);
-        filter: blur(247px);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-        z-index: -1;
-    }
 
     .work-first img {
         position: relative;
-        width: 326px;
-        height: 326px;
-        left: 50%;
-        margin-left: -175px;
-        top: 0px;
+        width: 100%;
+        height: auto;
+        top: 5px;
         border-radius: 11.8586px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .work-box-image {
+        position: relative;
+        width: 100%;
+        height: 370px;
+        background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(11px);
+        border-radius: 34px;
+        z-index: -1;
     }
 
     .work-bounce-sm {
@@ -1650,11 +1632,10 @@
     }
 
     .work-box-first .work-box-end,
-    .work-box-third .work-box-end {
-        padding: 0 1px 0;
-        /* margin-top: 25px; */
-        margin: 5px auto 0px;
-        width: 334px;
+    .work-box-second .work-box-end .work-box-third .work-box-end {
+        padding: 0 15px 0;
+        margin: 60px auto 0px;
+        width: auto;
     }
 
     .work-box-end .pre-text {
@@ -1690,16 +1671,13 @@
     }
 
     .work-box-second {
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     .work-box-second .work-box-end {
-        /* padding: 0 30px 0;
-        margin-top: 25px; */
-        padding: 0 1px 0;
-        /* margin-top: 25px; */
-        margin: 5px auto 0px;
-        width: 334px;
+        padding: 0 15px 0;
+        margin: 60px auto 0px;
+        width: auto;
     }
 
     .work-box-second::before {
@@ -1716,26 +1694,15 @@
     }
 
     .work-second::before {
-        content: '';
-        position: absolute;
-        width: 334.94px;
-        height: 334.94px;
-        left: 50%;
-        margin-left: -167px;
-        top: 0px;
-        background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
-        backdrop-filter: blur(5.63284px);
-        border-radius: 19.4731px;
-        z-index: -1;
+        width: 0;
+        height: 0;
     }
 
     .work-second img {
         position: relative;
-        width: 326px;
-        height: 326px;
-        left: 50%;
-        margin-left: -160px;
-        top: 0px;
+        width: 100%;
+        height: auto;
+        top: 10px;
         border-radius: 11px;
     }
 
@@ -1744,10 +1711,9 @@
     }
 
     .work-box-third .work-box-end {
-        padding: 0 1px 0;
-        /* margin-top: 25px; */
-        margin: 15px auto 0px;
-        width: 334px;
+        padding: 0 15px 0;
+        margin: 35px auto 0px;
+        width: auto;
     }
 
     .work-box-third::before {
@@ -1772,14 +1738,12 @@
 
 
     .work-card {
-        width: 220px;
+        width: 240px;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.46288px);
         border-radius: 12px;
         z-index: 1;
         position: relative;
-        left: 50%;
-        margin-left: -170px;
     }
 
     .work-card .card-image {
@@ -1834,15 +1798,16 @@
         font-size: 17px;
         line-height: 26px;
         color: #FFFFFF;
+        margin-bottom: 15px;
     }
 
     .work-card .card-text {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 8px;
-        line-height: 13px;
-        max-width: 295px;
+        font-size: 11px;
+        line-height: 14px;
+        max-width: 190px;
         color: #D1D1D1;
     }
 

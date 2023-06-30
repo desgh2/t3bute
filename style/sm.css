@@ -93,42 +93,40 @@
         z-index: 2;
     }
 
-    .coin-1 {
+    .big-phone {
         z-index: 3;
         position: absolute;
+        width: 730px;
+        height: 800px;
+        left: 50%;
+        margin-left: -390px;
+        top: -160px;
+        background: url('../images/smart.png');
+        background-size: cover;
+    }
+
+    .coin-1 {
         width: 160px;
-        height: 148px;
-        left: 280px;
-        top: 85px;
-        background: url('../images/coin1.svg');
-        transform: rotate(1deg);
+        height: 159px;
+        left: 415px;
+        top: 198px;
         background-size: cover;
     }
 
     .coin-2 {
-        z-index: 1;
-        position: absolute;
         width: 132px;
         height: 150px;
-        left: 280px;
-        top: 326px;
-        background: url('../images/coin22.png') no-repeat;
+        right: 185px;
+        bottom: 190px;
         background-size: contain;
-        /* transform: rotate(1deg); */
     }
 
     .coin-3 {
-        z-index: 3;
-        background-size: cover;
-        z-index: 4;
-        position: absolute;
         width: 128px;
         height: 128px;
-        left: 80px;
-        top: 132px;
-        background: url('../images/coin3.svg');
+        left: 204px;
+        bottom: 408px;
         background-size: cover;
-        /* transform: rotate(-8.35deg); */
     }
 
     .primary-screen-end-block::before {
@@ -203,7 +201,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
-        font-size: 42px;
+        font-size: 76px;
         line-height: 110%;
         text-align: center;
         text-transform: uppercase;
@@ -218,7 +216,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
-        font-size: 42px;
+        font-size: 60px;
         line-height: 110%;
     }
 
@@ -226,7 +224,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 22px;
         line-height: 150%;
         text-align: center;
         background: linear-gradient(93.41deg, #FFFFFF 44.08%, rgba(44, 198, 255, 0) 155.18%), #FFFFFF;
@@ -234,7 +232,8 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
-        margin-bottom: 30px;
+        max-width: 400px;
+        margin: 0 auto 30px;
     }
 
     .primary-screen-start-block button {
@@ -1398,9 +1397,9 @@
     #about-screen::before {
         content: '';
         position: absolute;
-        width: 1223px;
+        width: 820px;
         height: 507px;
-        left: -290px;
+        left: -85px;
         top: 286px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.3) 35.46%, rgba(201, 76, 244, 0.3) 75.27%);
         filter: blur(122px);
@@ -1412,6 +1411,7 @@
         width: 420px;
         margin: 0 auto 40px;
     }
+
     .in-card-about {
         height: 240px;
         overflow: hidden;
@@ -1432,8 +1432,8 @@
     .in-subscribe::before {
         content: '';
         position: absolute;
-        width: 375px;
-        height: 608px;
+        width: 0;
+        height: 0;
         left: 0px;
         top: 0px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.16) 35.46%, rgba(201, 76, 244, 0.16) 75.27%);
@@ -1563,7 +1563,7 @@
 
     .in-work {
         position: relative;
-        padding-top: 30px;
+        padding-top: 60px;
     }
 
     .in-work .title {
@@ -1583,22 +1583,32 @@
 
     .work-box {
         padding: 0px 0 0px;
-        height: 545px;
+        height: auto;
         position: relative;
     }
 
     .work-box .work-box-start {
         padding-top: 5px;
         position: relative;
-        height: 335px;
+        height: auto;
         margin-top: 5px;
+    }
+
+    .work-box-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(11px);
+        border-radius: 34px;
+        z-index: -1;
     }
 
     .work-first::before {
         content: '';
         position: absolute;
-        width: 334.94px;
-        height: 334.94px;
+        width: 0;
+        height: 0;
         left: 50%;
         margin-left: -167px;
         top: 0px;
@@ -1623,13 +1633,9 @@
 
     .work-first img {
         position: relative;
-        width: 326px;
-        height: 326px;
-        left: 50%;
-        margin-left: -210px;
-        top: 0px;
-        border-radius: 11.8586px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+        width: 500px;
+        height: 500px;
+        border-radius: 11px;
     }
 
     .work-bounce-sm {
@@ -1645,7 +1651,7 @@
 
     .work-box-first .work-box-end,
     .work-box-third .work-box-end {
-        padding: 0 30px 0;
+        padding: 0 15px 0;
         margin-top: 25px;
     }
 
@@ -1667,7 +1673,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 40px;
         line-height: 45px;
         color: #FFFFFF;
     }
@@ -1686,7 +1692,7 @@
     }
 
     .work-box-second .work-box-end {
-        padding: 0 30px 0;
+        padding: 0 15px 0;
         margin-top: 25px;
     }
 
@@ -1706,8 +1712,8 @@
     .work-second::before {
         content: '';
         position: absolute;
-        width: 334.94px;
-        height: 334.94px;
+        width: 0;
+        height: 0;
         left: 50%;
         margin-left: -167px;
         top: 0px;
@@ -1719,12 +1725,10 @@
 
     .work-second img {
         position: relative;
-        width: 326px;
-        height: 326px;
-        left: 50%;
-        margin-left: -160px;
-        top: 0px;
+        width: 500px;
+        height: 500px;
         border-radius: 11px;
+        right: -15px;
     }
 
     .work-box-third {
@@ -1732,7 +1736,7 @@
     }
 
     .work-box-third .work-box-end {
-        padding: 0 30px 0;
+        padding: 0 15px 0;
         margin-top: 25px;
     }
 
@@ -1752,27 +1756,31 @@
     .work-box .work-third {
         padding-top: 5px;
         position: relative;
-        height: 360px;
+        height: auto;
         margin-top: 5px;
     }
 
 
     .work-card {
-        width: 220px;
+        width: 270px;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.46288px);
         border-radius: 12px;
         z-index: 1;
         position: relative;
-        left: 50%;
-        margin-left: -150px;
     }
 
     .work-card .card-image {
         width: 100%;
-        height: 170px;
+        height: 200px;
         background: linear-gradient(78.84deg, rgba(169, 148, 255, 0.65) 0%, rgba(62, 35, 169, 0.21) 98.69%);
         border-radius: 11px 11px 0px 0px;
+    }
+
+    .work-card .work-card-img {
+        width: 100%;
+        position: relative;
+        top: 10px;
     }
 
     .card-img,
@@ -1810,7 +1818,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 22px;
         line-height: 26px;
         color: #FFFFFF;
     }
@@ -1819,9 +1827,9 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 12px;
-        max-width: 295px;
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 250px;
         color: #D1D1D1;
     }
 
@@ -1832,7 +1840,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 11px;
+        font-size: 16px;
         line-height: 29px;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -1859,8 +1867,12 @@
 
     .card-section {
         margin-top: 30px;
-        height: 1570px;
+        height: 1500px;
         position: relative;
+    }
+
+    .card-section-box {
+        margin-bottom: 50px;
     }
 
     .card-section::before {
@@ -1878,7 +1890,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 42px;
+        font-size: 48px;
         line-height: 120%;
         color: #FFFFFF;
         text-align: center;
@@ -1888,7 +1900,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 150%;
         text-align: center;
         background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;
@@ -1934,7 +1946,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 130px;
+        font-size: 150px;
         line-height: 154px;
         letter-spacing: -0.03em;
         background: linear-gradient(272.72deg, rgba(66, 0, 255, 0.1) -47.34%, rgba(92, 157, 255, 0.1) 100.35%), #FFFFFF;
@@ -1942,7 +1954,6 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         mix-blend-mode: normal;
-        text-align: center;
     }
 
     .card-invite.card-invite-first p.description {
@@ -1956,7 +1967,7 @@
         font-size: 16px;
         line-height: 160%;
         color: #E8E8E8;
-        margin: 0 auto 30px;
+        margin: 0 0;
         max-width: 400px !important;
     }
 
