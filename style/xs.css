@@ -45,7 +45,7 @@
     }
 
     a.logotype {
-        padding-left: 25px;
+        padding-left: 10px;
     }
 
     a.logotype img {
@@ -224,7 +224,8 @@
     }
 
     .primary-screen-start-block .title>strong {
-        display: block;
+        display: inline-block;
+        margin-left: 5px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
@@ -1419,7 +1420,7 @@
     }
 
     .card-about {
-        width: 336px;
+        width: 375px;
         margin: 0 auto 40px;
     }
 
@@ -1574,21 +1575,22 @@
 
     .laptop {
         position: absolute;
-        width: 328px;
-        height: 174px;
+        width: 90%;
+        height: 275px;
         left: 50%;
-        margin-left: -164px;
+        margin-left: -45%;
         top: 20px;
         background-size: contain;
     }
 
     .arrow-lg {
         position: absolute;
-        width: 336px;
-        height: 187px;
+        width: 90%;
+        height: 270px;
         left: 50%;
-        margin-left: -168px;
+        margin-left: -45%;
         top: 5px;
+        background-size: contain;
     }
 
     #work {
@@ -1694,7 +1696,7 @@
     }
 
     .work-box-end .pre-text {
-        margin: 25px 0 15px;
+        margin: 45px 0 5px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -1979,7 +1981,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 100px;
+        font-size: 124px;
         line-height: 154px;
         letter-spacing: -0.03em;
         background: linear-gradient(272.72deg, rgba(66, 0, 255, 0.1) -47.34%, rgba(92, 157, 255, 0.1) 100.35%), #FFFFFF;
@@ -2001,6 +2003,7 @@
         line-height: 160%;
         color: #E8E8E8;
         margin-bottom: 30px;
+        max-width: 100% !important;
     }
 
     .card-invite span.lines {

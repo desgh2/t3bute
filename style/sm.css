@@ -1488,11 +1488,15 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 42px;
+        font-size: 36px;
         line-height: 120%;
         text-align: center;
         color: #FFFFFF;
         margin: 15px 0 10px;
+    }
+
+    .subscribe-start .title>span {
+        display: inline-block;
     }
 
     .subscribe-start .text {
@@ -1655,7 +1659,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-transform: uppercase;
-        margin: 20px 0 15px;
+        margin: 40px 0 15px;
         text-align: center;
     }
 
@@ -1676,6 +1680,7 @@
         font-size: 16px;
         line-height: 26px;
         color: #D5D5D5;
+        text-align: center;
     }
 
     .work-box-second {

@@ -350,6 +350,10 @@ span.sale-badge>strong {
     margin: 15px 0 35px;
 }
 
+.subscribe-start .title > span {
+    display: block;
+}
+
 .subscribe-start .text {
     font-family: 'Poppins';
     font-style: normal;

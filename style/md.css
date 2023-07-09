@@ -34,7 +34,7 @@
     }
 
     a.logotype {
-        padding-left: 25px;
+        padding-left: 0px;
     }
 
     a.logotype img {
@@ -1527,6 +1527,10 @@
         margin: 15px 0 10px;
     }
 
+    .subscribe-start .title>span {
+        display: inline-block;
+    }
+
     .subscribe-start .text {
         font-family: 'Poppins';
         font-style: normal;
@@ -1941,7 +1945,7 @@
     }
 
     .card-invite {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
 
     .card-invite-first>.in-card-invite::before {
