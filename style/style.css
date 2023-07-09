@@ -139,6 +139,7 @@ ul.nav-pills li.nav-item.active a {
 
 .card-about {
     width: 345px;
+    margin: 0 auto;
 }
 
 .in-card-about {
