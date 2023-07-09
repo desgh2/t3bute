@@ -777,9 +777,9 @@
         text-shadow: 0px 2.49702px 19.9761px rgba(0, 0, 0, 0.25);
     }
 
-   .techno-bg-gradient {
-    margin-top: 180px;
-   }
+    .techno-bg-gradient {
+        margin-top: 180px;
+    }
 
     .jumbo {
         height: auto;
@@ -1247,7 +1247,7 @@
         margin-top: 220px;
     }
 
-    #about-screen::before {
+    /* #about-screen::before {
         content: '';
         position: absolute;
         width: 3px;
@@ -1258,7 +1258,7 @@
         filter: blur(122px);
         transform: matrix(0, 1, 1, 0, 0, 0);
         z-index: -1;
-    }
+    } */
 
     .card-about {
         width: 325px;
@@ -1284,6 +1284,8 @@
 
     #subscribe {
         height: 390px;
+        margin-top: 50px;
+        margin-bottom: 110px;
     }
 
     .in-subscribe {
@@ -1381,16 +1383,17 @@
         margin-top: 50px;
     }
 
-    .subscribe-end::before {
+    .in-subscribe::before {
         content: '';
         position: absolute;
-        width: 1px;
-        height: 1px;
-        left: 0px;
-        top: 0px;
-        background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.2) 35.46%, rgba(201, 76, 244, 0.2) 75.27%);
-        filter: blur(40px);
+        width: 700px;
+        height: 300px;
+        left: 215px;
+        top: 40px;
+        background: linear-gradient(82.66deg, #25CBFF 35.46%, #C94CF4 75.27%);
+        filter: blur(247px);
         transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: -3;
     }
 
     .laptop {
@@ -1414,7 +1417,7 @@
 
     #work {
         position: relative;
-        padding: 0px 0 70px;
+        padding: 0px 0 0px;
     }
 
 
@@ -1431,7 +1434,7 @@
         line-height: 100%;
         color: #FFFFFF;
         text-align: center;
-        margin-bottom: 5px;
+        margin-bottom: 50px;
     }
 
     .work-box-first {
@@ -1440,14 +1443,14 @@
 
     .work-box {
         padding: 0px 0 0px;
-        height: 420px;
+        height: auto;
         position: relative;
     }
 
     .work-box .work-box-start {
         padding-top: 5px;
         position: relative;
-        height: 400px;
+        height: auto;
         margin-top: 5px;
     }
 
@@ -1461,18 +1464,6 @@
         z-index: -1;
     }
 
-    .work-box-first::before {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 0;
-        left: 0px;
-        top: 0px;
-        background: linear-gradient(88.7deg, rgba(37, 203, 255, 0.5) 28.76%, rgba(201, 76, 244, 0.5) 61.12%);
-        filter: blur(247px);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-        z-index: -1;
-    }
 
     .work-first img {
         position: relative;
@@ -1603,7 +1594,7 @@
     .work-box .work-third {
         padding-top: 5px;
         position: relative;
-        height: 360px;
+        height: auto;
         margin-top: 5px;
     }
 
@@ -1666,7 +1657,7 @@
         font-size: 22px;
         line-height: 26px;
         color: #FFFFFF;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .work-card .card-text {
@@ -1712,16 +1703,17 @@
 
 
     .card-section {
-        margin-top: 30px;
-        height: 630px;
+        margin-top: 200px;
+        margin-bottom: 0px;
+        height: auto;
         position: relative;
     }
 
     .card-section::before {
         content: '';
         position: absolute;
-        width: 350px;
-        height: 1575px;
+        width: 1575px;
+        height: 350px;
         left: 0px;
         top: 0px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.2632) 49.72%, rgba(201, 76, 244, 0.28) 75.27%);
@@ -1742,7 +1734,6 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
         line-height: 150%;
         text-align: center;
         background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;

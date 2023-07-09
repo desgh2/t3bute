@@ -408,7 +408,7 @@ span.sale-badge>strong {
     line-height: 100%;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 
 .in-work .title>strong {
@@ -421,8 +421,9 @@ span.sale-badge>strong {
 
 .work-box {
     /* padding: 75px 0 60px; */
-    height: 765px;
+    height: auto;
     position: relative;
+    margin-bottom: 130px;
 }
 
 .work-box-first::before {
@@ -483,12 +484,12 @@ span.sale-badge>strong {
 
 .work-box-first .work-box-end,
 .work-box-third .work-box-end {
-    padding-top: 230px;
+    /* padding-top: 230px; */
     padding-left: 60px;
 }
 
 .work-box-second .work-box-end {
-    padding-top: 230px;
+    /* padding-top: 230px; */
     padding-right: 60px;
 }
 
@@ -546,32 +547,6 @@ span.sale-badge>strong {
     z-index: 3;
 }
 
-/* .work-first::before {
-    content: '';
-    position: absolute;
-    width: 636px;
-    height: 636px;
-    left: 15px;
-    top: 65px;
-    background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(10.8473px);
-    border-radius: 34.2545px;
-    z-index: -1;
-} */
-
-/* .work-second::before {
-    content: '';
-    position: absolute;
-    width: 636px;
-    height: 636px;
-    right: 20px;
-    top: 65px;
-    background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(10.8473px);
-    border-radius: 34.2545px;
-    z-index: -1;
-} */
-
 .work-box-bounce {
     position: absolute;
     width: 377.69px;
@@ -594,7 +569,7 @@ span.sale-badge>strong {
 .work-card-copy {
     position: absolute;
     width: 400px;
-    height: 560px;
+    height: 590px;
     left: 255.11px;
     top: 3px;
     transform: scale(0.9);
@@ -646,17 +621,18 @@ span.sale-badge>strong {
     font-size: 32.5px;
     line-height: 49px;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .work-card .card-text {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 15.1667px;
+    font-size: 15px;
     line-height: 24px;
     max-width: 295px;
     color: #D1D1D1;
+    margin-bottom: 10px;
 
 }
 
@@ -865,6 +841,25 @@ i.flash-fill {
 /**
 *   Card Invite
 */
+.card-section {
+    position: relative;
+}
+
+.card-section::before {
+    content: '';
+    position: absolute;
+    width: 1980px;
+    height: 740px;
+    border-radius: 1979.407px;
+    background: linear-gradient(90deg, rgba(55, 255, 111, 0.31) 0%, rgba(107, 37, 255, 0.31) 46.88%, rgba(5, 45, 255, 0.15) 100%);
+    filter: blur(247px);
+    left: 50%;
+    top: 10px;
+    margin-left: -990px;
+    z-index: -5;
+}
+
+
 .in-card-invite {
     padding: 30px 40px;
     border-radius: 20px;
@@ -2230,25 +2225,6 @@ footer#footer {
     z-index: 2;
 }
 
-/*
-.primary-screen-end-block::after {
-    content: '';
-    position: absolute;
-    width: 695px;
-    height: 559px;
-    left: -130px;
-    top: 5px;
-    background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.376) 49.72%, rgba(201, 76, 244, 0.4) 75.27%);
-    filter: blur(92px);
-    z-index: -1;
-    border-radius: 50%;
-}
-
-.primary-screen-start-block {
-    z-index: 1;
-    position: relative;
-    padding-top: 65px;
-} */
 
 .primary-screen-end-block .gradient-img {
     position: absolute;
@@ -2300,16 +2276,13 @@ footer#footer {
     font-weight: 400;
     font-size: 27px;
     line-height: 40px;
-    leading-trim: both;
-    text-edge: cap;
     background: linear-gradient(93.41deg, #FFFFFF 44.08%, rgba(44, 198, 255, 0) 155.18%), #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
-    margin-bottom: 40px;
-    max-width: 665px;
+    margin-bottom: 70px;
+    max-width: 450px;
 }
 
 .primary-screen-end-block img {

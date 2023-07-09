@@ -1409,13 +1409,12 @@
     #about-screen::before {
         content: '';
         position: absolute;
-        width: 907px;
-        height: 375px;
-        left: 0;
-        top: 0;
+        width: 480px;
+        height: 900px;
+        left: 30px;
+        top: 0px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.3) 35.46%, rgba(201, 76, 244, 0.3) 75.27%);
         filter: blur(122px);
-        transform: matrix(0, 1, 1, 0, 0, 0);
         z-index: -1;
     }
 
@@ -1424,6 +1423,41 @@
         margin: 0 auto 40px;
     }
 
+    .card-about:nth-child(2) .card-about-body::before {
+        content: '';
+        position: absolute;
+        width: 170px;
+        height: 220px;
+        right: -25px;
+        top: -58px;
+    }
+
+    .card-about:nth-child(3) .card-about-body::before {
+        content: '';
+        position: absolute;
+        width: 201px;
+        height: 236px;
+        right: -27px;
+        top: -75px;
+    }
+
+    .card-about:nth-child(2) .card-about-body .name {
+        font-size: 27px;
+    }
+
+    .card-about-body .text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: left;
+        letter-spacing: 0.3px;
+        color: #E8EDFF;
+        margin-bottom: 0;
+        z-index: 3;
+        position: relative;
+    }
 
     #subscribe {
         height: 632px;
@@ -1559,7 +1593,8 @@
 
     #work {
         position: relative;
-        padding: 0px 0 70px;
+        padding: 0px 0 0px;
+        margin-top: 45px;
     }
 
 
@@ -1583,16 +1618,31 @@
         margin-top: 40px;
     }
 
+    .work-box-first::before {
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 50%;
+        margin-left: -200px;
+        top: 0px;
+        border-radius: 326.569px;
+        background: rgba(76, 93, 244, 0.50);
+        filter: blur(60.47896194458008px);
+        z-index: -1;
+    }
+
     .work-box {
         padding: 0px 0 0px;
-        height: 545px;
+        height: auto;
         position: relative;
+        margin-bottom: 100px;
     }
 
     .work-box .work-box-start {
         padding-top: 5px;
         position: relative;
-        height: 335px;
+        height: auto;
         margin-top: 5px;
     }
 
@@ -1605,6 +1655,7 @@
     .work-first img {
         position: relative;
         width: 100%;
+        max-width: 550px;
         height: auto;
         top: 5px;
         border-radius: 11.8586px;
@@ -1613,7 +1664,7 @@
     .work-box-image {
         position: relative;
         width: 100%;
-        height: 370px;
+        height: auto;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(11px);
         border-radius: 34px;
@@ -1622,14 +1673,18 @@
 
     .work-bounce-sm {
         position: absolute;
-        width: 326.57px;
-        height: 326.11px;
-        left: calc(50% - 326.57px/2 + 0.09px);
-        top: calc(50% - 326.11px/2 + 1.57px);
-        background: rgba(76, 93, 244, 0.5);
-        filter: blur(60.479px);
+        width: 400px;
+        height: 545px;
+        left: 50%;
+        margin-left: -200px;
+        top: 0px;
+        border-radius: 545px;
+        background: linear-gradient(159deg, rgba(37, 203, 255, 0.50) 0%, rgba(201, 76, 244, 0.50) 100%);
+        filter: blur(247px);
         z-index: -1;
     }
+
+
 
     .work-box-first .work-box-end,
     .work-box-second .work-box-end .work-box-third .work-box-end {
@@ -1639,6 +1694,7 @@
     }
 
     .work-box-end .pre-text {
+        margin: 25px 0 15px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -1683,10 +1739,11 @@
     .work-box-second::before {
         content: '';
         position: absolute;
-        width: 375px;
-        height: 567px;
-        left: 0px;
-        top: 0.07px;
+        width: 400px;
+        height: 400px;
+        left: 50%;
+        margin-left: -200px;
+        top: 0px;
         background: linear-gradient(88.7deg, rgba(37, 203, 255, 0.5) 28.76%, rgba(201, 76, 244, 0.5) 61.12%);
         filter: blur(247px);
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -1701,9 +1758,10 @@
     .work-second img {
         position: relative;
         width: 100%;
+        max-width: 550px;
         height: auto;
-        top: 10px;
-        border-radius: 11px;
+        top: 5px;
+        border-radius: 11.8586px;
     }
 
     .work-box-third {
@@ -1732,7 +1790,7 @@
     .work-box .work-third {
         padding-top: 5px;
         position: relative;
-        height: 360px;
+        height: auto;
         margin-top: 5px;
     }
 
@@ -1798,7 +1856,7 @@
         font-size: 17px;
         line-height: 26px;
         color: #FFFFFF;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .work-card .card-text {
@@ -1830,11 +1888,11 @@
     .work-card-copy {
         position: absolute;
         width: 220px;
-        height: 358px;
+        height: 380px;
         left: 50%;
-        margin-left: -40px;
-        top: 4px;
-        transform: scale(0.9);
+        margin-left: -15%;
+        top: 1px;
+        transform: scale(0.8);
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         opacity: 0.5;
         backdrop-filter: blur(9.39842px);
@@ -1844,7 +1902,7 @@
 
 
     .card-section {
-        margin-top: 90px;
+        margin-top: 0px;
         height: 1570px;
         position: relative;
     }
@@ -1858,6 +1916,7 @@
         top: 0px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.2632) 49.72%, rgba(201, 76, 244, 0.28) 75.27%);
         filter: blur(186.5px);
+        margin-left: 0;
     }
 
     .card-section-title {
@@ -1998,7 +2057,7 @@
     .in-roadmap {
         position: relative;
         height: auto;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 60px;
     }
 

@@ -19,7 +19,7 @@
     }
 
     .in-card-invite {
-        padding: 15px 20px;
+        padding: 25px 25px;
         border-radius: 20px;
         box-sizing: border-box;
         border: 1px solid;
@@ -130,7 +130,7 @@
         bottom: 252px;
     }
 
-    
+
 
     .primary-screen-end-block::before {
         content: '';
@@ -1399,18 +1399,7 @@
         margin-top: 170px;
     }
 
-    #about-screen::before {
-        content: '';
-        position: absolute;
-        width: 3px;
-        height: 7px;
-        left: -290px;
-        top: 286px;
-        background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.3) 35.46%, rgba(201, 76, 244, 0.3) 75.27%);
-        filter: blur(122px);
-        transform: matrix(0, 1, 1, 0, 0, 0);
-        z-index: -1;
-    }
+
 
     .card-about {
         width: 295px;
@@ -1434,6 +1423,24 @@
         color: #FFFFFF;
         text-transform: uppercase;
         margin-bottom: 20px;
+    }
+
+    .card-about:first-child .card-about-body::before {
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 205px;
+        right: -25px;
+        top: -53px;
+    }
+
+    .card-about:nth-child(2) .card-about-body::before {
+        content: '';
+        position: absolute;
+        width: 165px;
+        height: 228px;
+        right: -42px;
+        top: -66px;
     }
 
     #subscribe {
@@ -1546,16 +1553,17 @@
         margin-top: 50px;
     }
 
-    .subscribe-end::before {
+    .in-subscribe::before {
         content: '';
         position: absolute;
-        width: 1px;
-        height: 1px;
-        left: 0px;
-        top: 0px;
-        background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.2) 35.46%, rgba(201, 76, 244, 0.2) 75.27%);
-        filter: blur(40px);
+        width: 700px;
+        height: 300px;
+        left: 215px;
+        top: 30px;
+        background: linear-gradient(82.66deg, #25CBFF 35.46%, #C94CF4 75.27%);
+        filter: blur(247px);
         transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: -3;
     }
 
     .laptop {
@@ -1580,6 +1588,7 @@
     #work {
         position: relative;
         padding: 0px 0 70px;
+        margin-top: 70px;
     }
 
 
@@ -1596,7 +1605,7 @@
         line-height: 100%;
         color: #FFFFFF;
         text-align: center;
-        margin-bottom: 5px;
+        margin-bottom: 50px;
     }
 
     .work-box-first {
@@ -1605,7 +1614,7 @@
 
     .work-box {
         padding: 0px 0 0px;
-        height: 420px;
+        height: auto;
         position: relative;
     }
 
@@ -1845,7 +1854,7 @@
         font-size: 22px;
         line-height: 28px;
         color: #FFFFFF;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .work-card .card-text {
@@ -1899,8 +1908,8 @@
     .card-section::before {
         content: '';
         position: absolute;
-        width: 350px;
-        height: 1575px;
+        width: 1575px;
+        height: 350px;
         left: 0px;
         top: 0px;
         background: linear-gradient(82.66deg, rgba(37, 203, 255, 0.2632) 49.72%, rgba(201, 76, 244, 0.28) 75.27%);
@@ -1921,7 +1930,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 22px;
         line-height: 150%;
         text-align: center;
         background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;
