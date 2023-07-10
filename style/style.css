@@ -1570,7 +1570,7 @@ i.flash-fill {
 }
 
 .product-section-start {
-    padding-top: 300px;
+    /* padding-top: 300px; */
     z-index: 7;
 }
 
@@ -2160,6 +2160,10 @@ footer#footer {
     position: relative;
     z-index: 1;
     padding-top: 108px;
+}
+
+.max-bottom {
+    margin-bottom: 150px;
 }
 
 .primary-screen::before {

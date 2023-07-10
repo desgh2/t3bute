@@ -44,7 +44,7 @@
 
 
     .primary-screen {
-        height: 550px;
+        height: auto;
         position: relative;
         z-index: 1;
         padding-top: 108px;
@@ -79,7 +79,7 @@
     }
 
     .max-bottom {
-        margin-bottom: 140px;
+        margin-bottom: 240px;
     }
 
     .primary-screen-end-block {
@@ -138,11 +138,25 @@
         left: 50%;
         margin-left: -200px;
         top: 0px;
+        border-radius: 30px;
+        background: linear-gradient(45deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.21) 100%), rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(9.5px);
+        z-index: 1;
+    }
+
+    /* .primary-screen-end-block::before {
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 50%;
+        margin-left: -200px;
+        top: 0px;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(5.30272px);
         border-radius: 16.7454px;
         z-index: -1;
-    }
+    } */
 
     .primary-screen-end-block .gradient-circle {
         position: absolute;
@@ -241,21 +255,21 @@
     }
 
     .primary-screen-end-block img.product-server {
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 420px;
         left: 50%;
-        margin-left: -200px;
-        top: -1px;
+        margin-left: -250px;
+        top: -35px;
         position: absolute;
         z-index: 5;
     }
 
     .gradient-ellipse-left {
         position: absolute;
-        width: 86.52px;
-        height: 124.47px;
-        left: 130.32px;
-        top: 122.03px;
+        width: 90px;
+        height: 125px;
+        left: 25px;
+        top: 123px;
         background: #00B2FF;
         mix-blend-mode: screen;
         filter: blur(34.6072px);
@@ -276,7 +290,7 @@
 
     .gradient-linear {
         position: absolute;
-        width: 695px;
+        width: 0px;
         height: 559px;
         left: -300px;
         top: -50px;
@@ -286,18 +300,19 @@
 
     .gradient-ellipse-circle {
         position: absolute;
-        width: 310px;
-        height: 310px;
+        width: 400px;
+        height: 400px;
         left: 50%;
         top: 10px;
-        margin-left: -155px;
-        background: rgba(76, 144, 244, 0.9);
-        filter: blur(56.9345px);
+        margin-left: -200px;
+        border-radius: 550.77px;
+        background: rgba(76, 144, 244, 0.90);
+        filter: blur(102px);
     }
 
     .product-section {
         position: relative;
-        height: 860px;
+        height: auto;
         padding-top: 50px;
         padding-bottom: 40px;
         z-index: 8;
@@ -310,13 +325,11 @@
     }
 
     .product-section .title-section {
-        padding-top: 300px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
         font-size: 50px;
         line-height: 120%;
-
         background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.3) -32.37%, rgba(37, 203, 255, 0.3) 93.03%), #FFFFFF;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -330,7 +343,6 @@
         font-weight: 400;
         font-size: 22px;
         line-height: 150%;
-
         background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -341,13 +353,13 @@
     .in-section-ai::before {
         content: '';
         position: absolute;
-        width: 375px;
-        height: 600px;
+        width: 2193px;
+        height: 509px;
         left: 0px;
-        top: 12p5x;
-        background: linear-gradient(88.7deg, rgba(37, 203, 255, 0.59) 28.76%, rgba(201, 76, 244, 0.59) 61.12%);
-        filter: blur(200px);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+        top: 125x;
+        border-radius: 2193px;
+        background: linear-gradient(159deg, rgba(37, 203, 255, 0.30) 0%, rgba(201, 76, 244, 0.30) 100%);
+        filter: blur(247px);
         z-index: 1;
     }
 
@@ -382,10 +394,10 @@
 
     .in-section-game::before {
         content: '';
-        width: 375px;
-        height: 509px;
+        width: 1200px;
+        height: 600px;
         left: 0px;
-        top: 127px;
+        top: 150px;
         background: linear-gradient(85.81deg, rgba(37, 203, 255, 0.5) 39.44%, rgba(76, 184, 244, 0.5) 89.61%);
         filter: blur(187px);
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -403,7 +415,7 @@
         filter: blur(5px);
         transform: rotate(330deg);
         background: url('../images/game-bg-sm.svg') no-repeat;
-        z-index: 21;
+        z-index: 1;
     }
 
     .game-bg-md {
@@ -422,14 +434,14 @@
 
     .in-section-education::before {
         content: '';
-        width: 375px;
-        height: 600px;
+        width: 1440px;
+        height: 915px;
         left: 0px;
-        top: 127px;
-        background: linear-gradient(85.81deg, rgba(255, 37, 246, 0.7) 39.44%, rgba(76, 123, 244, 0.7) 89.61%, rgba(244, 76, 197, 0.7) 89.61%);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+        top: 125px;
+        border-radius: 1440px;
+        background: linear-gradient(153deg, rgba(220, 101, 137, 0.30) 0%, rgba(201, 76, 244, 0.30) 100%);
+        filter: blur(300px);
         z-index: 1;
-        border-radius: 50%;
     }
 
     .resource-conus {
@@ -446,13 +458,13 @@
 
     .in-section-trading::before {
         content: '';
-        width: 375px;
-        height: 620px;
+        width: 1440px;
+        height: 915px;
         left: 0px;
-        top: 180px;
-        background: linear-gradient(85.81deg, rgba(37, 203, 255, 0.8) 39.44%, rgba(76, 123, 244, 0.8) 89.61%);
-        filter: blur(217px);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+        top: 150px;
+        border-radius: 1440px;
+        background: linear-gradient(147deg, rgba(37, 203, 255, 0.30) 0%, rgba(76, 123, 244, 0.30) 100%);
+        filter: blur(300px);
         z-index: 1;
     }
 
@@ -516,14 +528,14 @@
     }
 
     .card-body {
-        padding: 25px 15px 15px;
+        padding: 25px 20px 15px;
     }
 
     .card-title {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 24px;
         line-height: 140%;
         color: #FFFFFF;
 

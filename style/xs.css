@@ -266,10 +266,10 @@
 
     .gradient-ellipse-left {
         position: absolute;
-        width: 86.52px;
-        height: 124.47px;
-        left: 130.32px;
-        top: 122.03px;
+        width: 90px;
+        height: 125px;
+        left: 50px;
+        top: 85px;
         background: #00B2FF;
         mix-blend-mode: screen;
         filter: blur(34.6072px);
@@ -278,10 +278,10 @@
 
     .gradient-ellipse-right {
         position: absolute;
-        width: 86.52px;
-        height: 174.71px;
-        left: 315.22px;
-        top: 86.05px;
+        width: 86px;
+        height: 175px;
+        left: 277px;
+        top: 55px;
         background: rgba(0, 178, 255, 0.6);
         mix-blend-mode: screen;
         filter: blur(34.6072px);
@@ -305,11 +305,10 @@
 
     .product-section {
         position: relative;
-        height: 760px;
-        padding-top: 50px;
-        padding-bottom: 40px;
+        height: auto;
         z-index: 8;
-        margin-top: 70px;
+        margin: 0 0 100px;
+        padding: 0;
     }
 
     .in-section-start {
@@ -332,7 +331,7 @@
 
     .product-section .text-section {
         max-width: 315px;
-        margin: 0 auto 60px;
+        margin: 0 auto 45px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -491,7 +490,7 @@
     }
 
     .card {
-        height: 250px;
+        height: 280px;
         position: relative;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(4.025px);
@@ -525,15 +524,15 @@
     }
 
     .card-body {
-        padding: 15px;
+        padding: 20px 15px 5px;
     }
 
     .card-title {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 13px;
-        line-height: 140%;
+        font-size: 16px;
+        line-height: 130%;
         color: #FFFFFF;
 
     }
@@ -542,8 +541,8 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
-        font-size: 9px;
-        line-height: 160%;
+        font-size: 10px;
+        line-height: 140%;
         color: #CBCBCB;
     }
 
@@ -564,13 +563,14 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 28px;
+        font-size: 32px;
         line-height: 120%;
         text-align: center;
         background: linear-gradient(90deg, rgba(50, 194, 255, 0.4) 0%, rgba(142, 122, 249, 0.4) 55.6%), #FFFFFF;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        margin-bottom: 20px;
     }
 
     .product-contact-start .text {
@@ -628,8 +628,8 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 16px;
         color: #8A8A8E;
     }
 
