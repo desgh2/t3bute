@@ -297,7 +297,7 @@
         padding-top: 50px;
         padding-bottom: 0px;
         z-index: 8;
-        margin-top: 70px;
+        margin-top: 100px;
     }
 
     .in-section-start {
@@ -476,7 +476,7 @@
     }
 
     .card {
-        height: 300px;
+        height: 320px;
         position: relative;
         background: linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
         backdrop-filter: blur(4.025px);
@@ -557,6 +557,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        margin-bottom: 20px;
     }
 
     .product-contact-start .text {

@@ -565,6 +565,7 @@
     }
 
     .product-contact-start .title {
+        max-width: 500px;
         padding-top: 50px;
         font-family: 'Poppins';
         font-style: normal;
