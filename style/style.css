@@ -350,7 +350,7 @@ span.sale-badge>strong {
     margin: 15px 0 35px;
 }
 
-.subscribe-start .title > span {
+.subscribe-start .title>span {
     display: block;
 }
 
@@ -2291,7 +2291,7 @@ footer#footer {
     background-clip: text;
     text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
     margin-bottom: 70px;
-    max-width: 450px;
+    max-width: 660px;
 }
 
 .primary-screen-end-block img {
@@ -2312,6 +2312,7 @@ footer#footer {
     position: relative;
     z-index: 1;
     margin-top: 200px;
+    margin-bottom: 70px;
 }
 
 .fundation::before {
@@ -2427,8 +2428,8 @@ footer#footer {
     position: absolute;
     width: 1020px;
     left: 122px;
-    top: 35px;
-    background: url('../images/grid-techno.svg') no-repeat;
+    top: 37px;
+    background: url('../images/grid.png') no-repeat;
 }
 
 .grid-col .gc {
@@ -2768,9 +2769,12 @@ ul.t3b li:nth-child(5) {
 
 
 .jumbo {
-    height: 760px;
+    height: auto;
     position: relative;
+    margin-bottom: 200px;
 }
+
+
 
 .jumbo .title {
     font-family: 'Poppins';
@@ -2782,8 +2786,7 @@ ul.t3b li:nth-child(5) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-    margin-top: 270px;
+    /* margin-top: 270px; */
 }
 
 .jumbo .text {
@@ -2810,11 +2813,6 @@ ul.t3b li:nth-child(5) {
 }
 
 #first-jumbo .to-image {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    left: 0px;
-    top: calc(50% - 550px/2);
     background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(9.5px);
     border-radius: 30px;
@@ -2822,10 +2820,11 @@ ul.t3b li:nth-child(5) {
 }
 
 #first-jumbo img {
-    width: 770px;
+    width: 688px;
     position: relative;
-    height: 600px;
-    left: -110px;
+    height: 688px;
+    left: -20px;
+    top: -35px;
 }
 
 #first-jumbo .gradient-circle {
@@ -2864,11 +2863,6 @@ ul.t3b li:nth-child(5) {
 }
 
 #second-jumbo .to-image {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    right: 0px;
-    top: calc(50% - 550px/2);
     background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(9.5px);
     border-radius: 30px;
@@ -2876,23 +2870,34 @@ ul.t3b li:nth-child(5) {
 }
 
 #second-jumbo img {
-    position: relative;
-    width: 600px;
-    height: 600px;
-    left: -45px;
-    top: -50px;
+    position: absolute;
+    width: auto;
+    height: 714px;
+    top: -79px;
+    right: 0px;
 }
 
 #second-jumbo .gradient-circle {
     position: absolute;
-    width: 516.61px;
-    height: 517.34px;
-    left: calc(50% - 516.61px/2 + 16.48px);
-    top: 0;
+    width: 600px;
+    height: 600px;
+    top: 17px;
+    left: 17px;
+    border-radius: 600px;
     background: #0997FF;
-    filter: blur(95.6733px);
+    filter: blur(110px);
 }
 
+#second-jumbo .gradient-circle-sm {
+    position: absolute;
+    width: 165px;
+    height: 167px;
+    background: rgba(133, 203, 255, 0.77);
+    filter: blur(29.285228729248047px);
+    top: 30px;
+    left: 275px;
+    z-index: 2;
+}
 
 
 #third-jumbo::before {
@@ -2909,11 +2914,6 @@ ul.t3b li:nth-child(5) {
 }
 
 #third-jumbo .to-image {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    left: 0px;
-    top: calc(50% - 550px/2);
     background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(9.5px);
     border-radius: 30px;
@@ -2922,10 +2922,10 @@ ul.t3b li:nth-child(5) {
 
 #third-jumbo img {
     position: relative;
-    width: 582px;
-    height: 615px;
+    width: 673px;
+    height: 711px;
     left: 0px;
-    top: -65px;
+    top: -75px;
 }
 
 #third-jumbo .gradient-circle {
@@ -2963,11 +2963,6 @@ ul.t3b li:nth-child(5) {
 }
 
 #fourth-jumbo .to-image {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    right: 0px;
-    top: calc(50% - 550px/2);
     background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(9.5px);
     border-radius: 30px;
@@ -2976,10 +2971,10 @@ ul.t3b li:nth-child(5) {
 
 #fourth-jumbo img {
     position: relative;
-    width: 671px;
-    height: 735px;
-    left: -60px;
-    top: -96.5px;
+    width: 680px;
+    height: 650px;
+    left: -22px;
+    top: -13px;
 }
 
 #fourth-jumbo .gradient-circle {
@@ -2994,20 +2989,21 @@ ul.t3b li:nth-child(5) {
 
 #fourth-jumbo .gradient-circle-sm {
     position: absolute;
-    width: 550.77px;
-    height: 550px;
-    left: calc(50% - 550.77px/2 - 0.61px);
-    top: calc(50% - 550px/2 + 1.87px);
-    background: rgba(76, 93, 244, 0.3);
-    filter: blur(102px);
+    width: 636px;
+    height: 636px;
+    left: calc(50% - 636px/2 - 0.61px);
+    top: calc(50% - 636px/2 + 1.87px);
+    border-radius: 636px;
+    background: #C94CF4;
+    filter: blur(117px);
 }
 
 #fourth-jumbo .gradient-circle-left {
     position: absolute;
     width: 143px;
     height: 144px;
-    left: 46px;
-    top: 146.5px;
+    left: 85px;
+    top: 180px;
     background: rgba(238, 133, 255, 0.77);
     mix-blend-mode: hard-light;
     filter: blur(27px);
@@ -3017,8 +3013,8 @@ ul.t3b li:nth-child(5) {
     position: absolute;
     width: 143px;
     height: 144px;
-    left: 260px;
-    top: 61.5px;
+    left: 305px;
+    top: 80px;
     background: rgba(238, 133, 255, 0.77);
     mix-blend-mode: hard-light;
     filter: blur(27px);
@@ -3028,8 +3024,8 @@ ul.t3b li:nth-child(5) {
     position: absolute;
     width: 143px;
     height: 144px;
-    left: 260px;
-    top: 340.5px;
+    left: 325px;
+    top: 365px;
     background: rgba(238, 133, 255, 0.77);
     mix-blend-mode: hard-light;
     filter: blur(27px);
@@ -3049,11 +3045,6 @@ ul.t3b li:nth-child(5) {
 }
 
 #fifth-jumbo .to-image {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    left: 0px;
-    top: calc(50% - 550px/2);
     background: linear-gradient(78.84deg, rgba(225, 9, 165, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(9.5px);
     border-radius: 30px;
@@ -3062,10 +3053,10 @@ ul.t3b li:nth-child(5) {
 
 #fifth-jumbo img {
     position: relative;
-    width: 550px;
-    height: 598px;
+    width: 636px;
+    height: 691px;
     left: 0px;
-    top: -48px;
+    top: -55px;
 }
 
 #fifth-jumbo .gradient-circle {
@@ -3120,6 +3111,24 @@ ul.t3b li:nth-child(5) {
     z-index: -1;
 }
 
+.jumbo .to-image {
+    position: relative !important;
+    width: 100% !important;
+    height: 635px !important;
+    max-height: 635px !important;
+    /* margin-bottom: 250px; */
+}
+
+.jss-box-right {
+    max-width: 580px;
+    margin-left: auto;
+}
+
+.jss-box-left {
+    max-width: 600px;
+    margin-right: auto;
+}
+
 .subscribe-box {
     padding-top: 85px;
     padding-bottom: 85px;
@@ -3130,9 +3139,10 @@ ul.t3b li:nth-child(5) {
     font-style: normal;
     font-weight: 800;
     font-size: 60px;
-    line-height: 90px;
+    line-height: 60px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 
@@ -3149,12 +3159,12 @@ ul.t3b li:nth-child(5) {
     background-clip: text;
     text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
     max-width: 890px;
-    margin: 0 auto;
+    margin: 0 auto 35px;
     display: block;
 }
 
 .subscribe-form-box {
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 

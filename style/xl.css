@@ -727,10 +727,11 @@
     } */
 
     .fundation {
-        height: 450px;
+        height: 500px;
         position: relative;
         z-index: 1;
         margin-top: 210px;
+        margin-bottom: 120px;
     }
 
     .fundation::before {
@@ -780,7 +781,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 22px;
         line-height: 150%;
         text-align: center;
         background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;
@@ -788,6 +789,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-shadow: 0px 2.49702px 19.9761px rgba(0, 0, 0, 0.25);
+        margin-bottom: 75px;
     }
 
     .techno-bg-gradient {
@@ -796,30 +798,29 @@
 
     .jumbo {
         height: auto;
-        min-height: 250px;
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 170px;
     }
 
     .jumbo .title {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 36px;
+        font-size: 50px;
         line-height: 120%;
         text-align: left;
         background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.3) -32.37%, rgba(37, 203, 255, 0.3) 93.03%), #FFFFFF;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .jumbo .text {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 27px;
         line-height: 150%;
         text-align: left;
         background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;
@@ -835,7 +836,131 @@
         position: relative;
     }
 
-    #second-jumbo.jumbo {
+    .jss-box-right {
+        max-width: 500px;
+        margin-left: auto;
+    }
+
+    .jss-box-left {
+        max-width: 500px;
+        margin-right: auto;
+    }
+
+    .jumbo .to-image {
+        position: relative !important;
+        width: 100% !important;
+        height: 545px !important;
+        max-height: 545px !important;
+        /* margin-bottom: 250px; */
+    }
+
+    #first-jumbo img {
+        width: 600px;
+        position: relative;
+        height: 600px;
+        left: -20px;
+        top: -35px;
+    }
+
+    #second-jumbo img {
+        position: absolute;
+        width: auto;
+        height: 624px;
+        top: -79px;
+        right: 0px;
+    }
+
+    #second-jumbo .gradient-circle {
+        position: absolute;
+        width: 545px;
+        height: 545px;
+        top: 0px;
+        left: 0px;
+        border-radius: 600px;
+        background: #0997FF;
+        filter: blur(110px);
+    }
+
+    #second-jumbo .gradient-circle-sm {
+        position: absolute;
+        width: 165px;
+        height: 167px;
+        background: rgba(133, 203, 255, 0.77);
+        filter: blur(29.285228729248047px);
+        top: 12px;
+        left: 241px;
+        z-index: 2;
+    }
+
+    #third-jumbo img {
+        position: relative;
+        width: 583px;
+        height: 621px;
+        left: 0px;
+        top: -75px;
+    }
+
+    #fourth-jumbo img {
+        position: relative;
+        width: 590px;
+        height: 560px;
+        left: -22px;
+        top: -13px;
+    }
+
+    #fourth-jumbo .gradient-circle-sm {
+        position: absolute;
+        width: 546px;
+        height: 546px;
+        left: calc(50% - 546px/2 - 0.61px);
+        top: calc(50% - 546px/2 + 1.87px);
+        border-radius: 546px;
+        background: #C94CF4;
+        filter: blur(117px);
+    }
+
+    #fourth-jumbo .gradient-circle-left {
+        position: absolute;
+        width: 143px;
+        height: 144px;
+        left: 50px;
+        top: 135px;
+        background: rgba(238, 133, 255, 0.77);
+        mix-blend-mode: hard-light;
+        filter: blur(27px);
+    }
+
+    #fourth-jumbo .gradient-circle-center {
+        position: absolute;
+        width: 143px;
+        height: 144px;
+        left: 278px;
+        top: 80px;
+        background: rgba(238, 133, 255, 0.77);
+        mix-blend-mode: hard-light;
+        filter: blur(27px);
+    }
+
+    #fourth-jumbo .gradient-circle-right {
+        position: absolute;
+        width: 143px;
+        height: 144px;
+        left: 284px;
+        top: 360px;
+        background: rgba(238, 133, 255, 0.77);
+        mix-blend-mode: hard-light;
+        filter: blur(27px);
+    }
+
+    #fifth-jumbo img {
+        position: relative;
+        width: 546px;
+        height: 601px;
+        left: 0px;
+        top: -55px;
+    }
+
+    /* #second-jumbo.jumbo {
         height: 250px;
         position: relative;
         margin-bottom: 100px;
@@ -1142,11 +1267,11 @@
         height: 340px;
         left: 0px;
         top: -32px;
-    }
+    } */
 
     #techno-form {
         height: 570px;
-        margin-bottom: 0px;
+        margin-bottom: 25px;
         position: relative;
         z-index: 1;
     }
@@ -1163,48 +1288,6 @@
         z-index: -1;
     }
 
-    #techno-form::after {
-        content: '';
-        position: absolute;
-        width: 460px;
-        height: 646px;
-        left: 50%;
-        margin-left: -205px;
-        top: -47px;
-        background: url('../images/ask.svg') no-repeat;
-        background-size: cover;
-        transform: rotate(0deg);
-        z-index: -1;
-    }
-
-    .subscribe-box .title {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 120%;
-        text-align: center;
-        background: linear-gradient(90deg, rgba(50, 194, 255, 0.4) 0%, rgba(142, 122, 249, 0.4) 55.6%), #FFFFFF;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-
-    .subscribe-box .text {
-        max-width: 550px;
-        margin: 0 auto;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        background: linear-gradient(88.74deg, rgba(201, 76, 244, 0.3) -8.16%, rgba(37, 203, 255, 0.3) 58.17%), #FFFFFF;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-shadow: 0px 2.49702px 19.9761px rgba(0, 0, 0, 0.25);
-    }
 
     .subscribe-form-box {
         margin-top: 20px;
@@ -1215,24 +1298,8 @@
         padding-bottom: 85px;
     }
 
-    input.subscribe-field {
-        background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.1) -32.37%, rgba(37, 203, 255, 0.1) 93.03%), linear-gradient(78.84deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 98.69%), rgba(255, 255, 255, 0.06);
-        border: 1.53407px solid rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        width: 390px;
-        border-radius: 8px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 11px;
-        text-align: center;
-        color: #FFFFFF;
-        text-align: left;
-        padding: 14px 24px;
-        color: #FFFFFF;
-    }
 
+    /* 
     .btn-subscribe {
         background: linear-gradient(90.4deg, rgba(201, 76, 244, 0.6) -32.37%, rgba(37, 203, 255, 0.6) 93.03%), #FFFFFF;
         box-shadow: 7.38405px 0px 41.3507px rgba(38, 203, 255, 0.3), -7.38405px 0px 41.3507px rgba(154, 113, 248, 0.5);
@@ -1249,7 +1316,7 @@
         margin: 45px auto 0;
         width: 135px;
         height: 50px;
-    }
+    } */
 
 
     /*home*/
