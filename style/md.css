@@ -19,7 +19,7 @@
     }
 
     .in-card-invite {
-        padding: 15px 20px;
+        padding: 25px 20px;
         border-radius: 20px;
         box-sizing: border-box;
         border: 1px solid;
@@ -219,7 +219,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
-        font-size: 48px;
+        font-size: 42px;
         line-height: 110%;
     }
 
